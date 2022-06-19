@@ -1,0 +1,427 @@
+body, p, ul, span{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 980px;
+    height: 1386px;
+    padding: 0 44px;
+    margin: 0 auto;
+
+}
+.red{
+    width: 100%;
+    height: 61px;
+}
+.red .red-left{
+    width: 110px;
+    height: 100%;
+    background-color: #d45d5c;
+    float: left;
+}
+.red .red-left>p{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: SimHei;
+    padding: 45px 0 0 0;
+}
+.red .red-right{
+  
+    float: right;
+}
+.red .red-right>p{
+    font-size: 12px;
+    color: #d45d5c;
+    font-family: SimHei;
+    padding:45px 0 0 0
+}
+.container-main{
+    width: 100%;
+    height: 1300px;
+    border-top: 2px solid #938e8c;
+    border-bottom: 2px solid #938e8c;
+    box-sizing: border-box;
+}
+.container-main .container-top{
+    width: 100%;
+    margin-top: 35px;
+}
+.container-main .container-top .picture{
+    position: relative;
+    width: 641px;
+    height: 301px;
+    background-color: red;
+    float: left;
+    
+}
+.container-main .container-top .picture .bgcgreen{
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    background-color: green;
+} 
+.container-main .container-top .picture .bgcred{
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
+    background-color: red;
+}
+.container-main .container-top .word1{
+    width: 203px;
+    height: 301px;
+    border-top: 2px solid #cc8091;
+    float: right;
+    box-sizing: border-box;
+}
+.container-main .container-top .word1 .firstp{
+    color: #000000;
+    font-size: 24px;
+    font-family: microsoft yahei;
+    line-height: 40px;
+    text-decoration: underline; 
+    padding: 2px 0;
+}
+.container-main .container-top .word1 .firstp::first-letter{
+    font-size: 31px;
+}
+.container-main .container-top .word1 .secondp{
+    color: #000000;
+    font-size: 24px;
+    font-family: microsoft yahei;
+    line-height: 40px;
+    text-decoration: underline; 
+    padding: 2px 0;
+}
+.container-main .container-top .word1 .secondp::first-letter{
+    font-size: 31px;
+}
+.container-main .container-top .word1 .thirdp{
+    font-size: 12px;
+    color: #676767;
+    font-family: KaiTi;
+    line-height: 10px;
+}
+.container-main .container-top .word1 .fourthp{
+    height: 125px;
+    font-size: 116px;
+    color: #75b86b;
+    font-family:microsoft yahei ;
+    font-style: oblique;
+}
+.container-main .container-top .word1 .word1-red-left{
+    font-size: 55px;
+    color: #cc8091;
+    float: left;
+}
+.container-main .container-top .word1 .word1-red-right{
+    padding: 18px 0 0 0;
+    height: 72.8px;
+    float: left;
+    margin-top: 10px 0 0 0;
+}
+.container-main .container-top .word1 .word1-red{
+    width: 203px;
+    background-color: yellow;
+    
+}
+.container-main .container-top .word1 .word1-red-right .css1{
+    font-size: 21px;
+    color: #cc8091;
+}
+.container-main .container-top .word1 .word1-red-right .css2{
+    font-size: 12px;
+    color: #e0e0e0;
+}
+.container-main .container-top .word2{
+    clear: both;
+    width: 641px;
+    height: 296px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.container-main .container-top .word2 ul{
+    width: 100%;
+    height: 100%;
+}
+.container-main .container-top .word2 ul li{
+    float: left;
+    width: 200px;
+    margin-right: 13px;
+    height: 301px;
+    box-sizing: border-box;
+}
+.container-main .container-top .word2 ul li .title{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.container-main .container-top .word2 ul li .content{
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 70%;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+.container-main .container-top .word2 ul li .percent{
+    padding: 35px 0 0 0;
+}
+.container-main .container-top .word2 ul li .percent p{
+    font-size: 12px;
+    line-height: 16px;
+}
+.container-main .container-top .word2 ul li .percent span{
+    font-style: 12px;
+    color: #cd4a48;
+    opacity: 70%;
+    font-style: oblique;
+}
+.container-main .container-bottom {
+    width: 100%;
+    height: 650px;
+    background-color: ;
+    clear: both;
+}
+.container-main .container-bottom .the{
+    font-size: 72px;
+    color: #f5e327;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: SimHei;
+    display: inline-block;
+   
+}
+.container-main .container-bottom .blue{
+    display: block;
+    font-size: 42px;
+    color: #11456b;
+    font-family: SimHei;
+    font-weight: bold;
+    line-height: 16px;
+    margin-left: 10px;
+}.container-main .container-bottom .blue{
+    display: inline-block;
+    font-size: 42px;
+    color: #11456b;
+    font-family: SimHei;
+    font-weight: bold;
+    line-height: 16px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+.container-main .container-bottom .blue1{
+    display: block;
+    font-size: 42px;
+    color: #11456b;
+    font-family: SimHei;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 2px;
+    
+}
+.container-main .container-bottom .blue2{
+    font-size: 33px;
+    color: #11456b;
+    font-family: SimHei;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.container-main .container-bottom .bottom-left{ 
+    width: 415px;
+    float: left;
+}
+.container-main .container-bottom .bottom-left-content{
+    width: 100%;
+    height: 100%;
+   border-top: 2px solid #11456b;
+    padding: 30px 0 0 0;
+    
+}
+.container-main .container-bottom .bottom-left-content .firstp::first-letter{
+    font-size: 70px;
+    color: #f5e327;
+    float: left;
+    margin: 30px 10px;
+}
+.container-main .container-bottom .bottom-left-content .firstp{
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    
+}
+.container-main .container-bottom .bottom-left-content .secondp{
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    text-indent: 20px;
+ 
+}
+.container-main .container-bottom .bottom-left-content img{
+    display: block;
+    float: right;
+   margin: 20px 0 20px 20px;
+}
+.container-main .container-bottom .bottom-right {
+   width: 458px;
+   float: right;
+}
+.container-main .container-bottom .bottom-right .picture-1{
+    position: relative;
+    width: 458px;
+    height: 275px;
+}
+.container-main .container-bottom .bottom-right img{
+  
+    object-fit: cover;
+   
+}
+.container-main .container-bottom .bottom-right .img-word{
+    position: absolute;
+    left:0;
+    top: 214px;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    height: 61px;
+    line-height: 61px;
+    padding: 0 0 0 30px;
+}
+.container-main .container-bottom .bottom-right .img-word span{
+    border-left: 3px solid #72b16a;
+    height: 44px;
+    margin-right: 10px;
+}
+.container-main .container-bottom .bottom-right .img-word p{
+    display: inline-block;
+}
+.container-main .container-bottom .bottom-right .img-word .special{
+    font-size: 12px;
+    color: #72b16a;
+    font-style: oblique;
+    letter-spacing: 140%;
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content{
+    width: 459px;
+    height: 318px;
+    background-color: #eeedd6;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .bottom-right-content-top .triangle{
+    width: 0;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black ;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .bottom-right-content-top .special1{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle; 
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family: SimSuncss;
+    line-height: 20px;
+}
+
+.container-main .container-bottom  .bottom-right .bottom-right-content .bottom-right-content-top .special2{
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    color: #5a5b5b;
+    font-style: oblique;
+    font-family: SimSuncss;
+    line-height: 20px;
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .zero{
+    position: absolute;
+    top: 158px;
+    left: 0;
+    width: 260px;
+    height: 160px;
+    background-color: #cd4a48;
+
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .zero .special{
+    font-size: 110px;
+    color: #ffffff;
+    display: inline-block;  
+    padding-left: px; 
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .zero span{
+    height: 86px;
+    display: inline-block;
+    width: 2px;
+    border-left: 2px solid #ffffff;
+    
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .zero .figure{
+    float: right;
+    width: 180px;
+    height: 80px;
+    padding: 30px 0 0 0;
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .zero .figure .up{
+    font-size: 21px;
+    color: #ffffff;
+    font-style: oblique;
+    font-family: SimHei;
+    line-height: 24px;
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .zero .figure .down{
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 16px;
+    font-family: SimHei;
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .world{
+    position: absolute;
+    top: 158px;
+    left: 260px;
+    width: 199px;
+    height: 160px;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .world .yinhao{
+    position: absolute;
+    top: 10px;
+    left: -35%;
+    
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: SimHei;
+    
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .world .yinhao1{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: SimHei;
+    float: right;   
+}
+.container-main .container-bottom  .bottom-right .bottom-right-content .world p{
+    font-size: 14px;
+    color: #5a5b5b;
+    font-style: oblique;
+    line-height: 16px;
+    font-family: SimHei;
+    text-indent: 40px;
+    
+}
